@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		909CF8B22BAACA380018B234 /* kalkulator_wynagrodzeniaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909CF8B12BAACA380018B234 /* kalkulator_wynagrodzeniaApp.swift */; };
+		909CF8B42BAACA380018B234 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909CF8B32BAACA380018B234 /* ContentView.swift */; };
+		909CF8B62BAACA3A0018B234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909CF8B52BAACA3A0018B234 /* Assets.xcassets */; };
+		909CF8B92BAACA3A0018B234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909CF8B82BAACA3A0018B234 /* Preview Assets.xcassets */; };
+		909CF8C32BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909CF8C22BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.swift */; };
+		909CF8CD2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909CF8CC2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.swift */; };
+		909CF8CF2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909CF8CE2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		909CF8BF2BAACA3A0018B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 909CF8A62BAACA380018B234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909CF8AD2BAACA380018B234;
+			remoteInfo = kalkulator_wynagrodzenia;
+		};
+		909CF8C92BAACA3A0018B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 909CF8A62BAACA380018B234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909CF8AD2BAACA380018B234;
+			remoteInfo = kalkulator_wynagrodzenia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		909CF8AE2BAACA380018B234 /* kalkulator_wynagrodzenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kalkulator_wynagrodzenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		909CF8B12BAACA380018B234 /* kalkulator_wynagrodzeniaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalkulator_wynagrodzeniaApp.swift; sourceTree = "<group>"; };
+		909CF8B32BAACA380018B234 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		909CF8B52BAACA3A0018B234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		909CF8B82BAACA3A0018B234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		909CF8BE2BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalkulator_wynagrodzeniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		909CF8C22BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalkulator_wynagrodzeniaTests.swift; sourceTree = "<group>"; };
+		909CF8C82BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalkulator_wynagrodzeniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		909CF8CC2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalkulator_wynagrodzeniaUITests.swift; sourceTree = "<group>"; };
+		909CF8CE2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalkulator_wynagrodzeniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909CF8AB2BAACA380018B234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909CF8BB2BAACA3A0018B234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909CF8C52BAACA3A0018B234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		909CF8A52BAACA380018B234 = {
+			isa = PBXGroup;
+			children = (
+				909CF8B02BAACA380018B234 /* kalkulator_wynagrodzenia */,
+				909CF8C12BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests */,
+				909CF8CB2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests */,
+				909CF8AF2BAACA380018B234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		909CF8AF2BAACA380018B234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909CF8AE2BAACA380018B234 /* kalkulator_wynagrodzenia.app */,
+				909CF8BE2BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.xctest */,
+				909CF8C82BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		909CF8B02BAACA380018B234 /* kalkulator_wynagrodzenia */ = {
+			isa = PBXGroup;
+			children = (
+				909CF8B12BAACA380018B234 /* kalkulator_wynagrodzeniaApp.swift */,
+				909CF8B32BAACA380018B234 /* ContentView.swift */,
+				909CF8B52BAACA3A0018B234 /* Assets.xcassets */,
+				909CF8B72BAACA3A0018B234 /* Preview Content */,
+			);
+			path = kalkulator_wynagrodzenia;
+			sourceTree = "<group>";
+		};
+		909CF8B72BAACA3A0018B234 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				909CF8B82BAACA3A0018B234 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		909CF8C12BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				909CF8C22BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.swift */,
+			);
+			path = kalkulator_wynagrodzeniaTests;
+			sourceTree = "<group>";
+		};
+		909CF8CB2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				909CF8CC2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.swift */,
+				909CF8CE2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITestsLaunchTests.swift */,
+			);
+			path = kalkulator_wynagrodzeniaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		909CF8AD2BAACA380018B234 /* kalkulator_wynagrodzenia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909CF8D22BAACA3A0018B234 /* Build configuration list for PBXNativeTarget "kalkulator_wynagrodzenia" */;
+			buildPhases = (
+				909CF8AA2BAACA380018B234 /* Sources */,
+				909CF8AB2BAACA380018B234 /* Frameworks */,
+				909CF8AC2BAACA380018B234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kalkulator_wynagrodzenia;
+			productName = kalkulator_wynagrodzenia;
+			productReference = 909CF8AE2BAACA380018B234 /* kalkulator_wynagrodzenia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		909CF8BD2BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909CF8D52BAACA3A0018B234 /* Build configuration list for PBXNativeTarget "kalkulator_wynagrodzeniaTests" */;
+			buildPhases = (
+				909CF8BA2BAACA3A0018B234 /* Sources */,
+				909CF8BB2BAACA3A0018B234 /* Frameworks */,
+				909CF8BC2BAACA3A0018B234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909CF8C02BAACA3A0018B234 /* PBXTargetDependency */,
+			);
+			name = kalkulator_wynagrodzeniaTests;
+			productName = kalkulator_wynagrodzeniaTests;
+			productReference = 909CF8BE2BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		909CF8C72BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909CF8D82BAACA3A0018B234 /* Build configuration list for PBXNativeTarget "kalkulator_wynagrodzeniaUITests" */;
+			buildPhases = (
+				909CF8C42BAACA3A0018B234 /* Sources */,
+				909CF8C52BAACA3A0018B234 /* Frameworks */,
+				909CF8C62BAACA3A0018B234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909CF8CA2BAACA3A0018B234 /* PBXTargetDependency */,
+			);
+			name = kalkulator_wynagrodzeniaUITests;
+			productName = kalkulator_wynagrodzeniaUITests;
+			productReference = 909CF8C82BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		909CF8A62BAACA380018B234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					909CF8AD2BAACA380018B234 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					909CF8BD2BAACA3A0018B234 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 909CF8AD2BAACA380018B234;
+					};
+					909CF8C72BAACA3A0018B234 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 909CF8AD2BAACA380018B234;
+					};
+				};
+			};
+			buildConfigurationList = 909CF8A92BAACA380018B234 /* Build configuration list for PBXProject "kalkulator_wynagrodzenia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 909CF8A52BAACA380018B234;
+			productRefGroup = 909CF8AF2BAACA380018B234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				909CF8AD2BAACA380018B234 /* kalkulator_wynagrodzenia */,
+				909CF8BD2BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests */,
+				909CF8C72BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909CF8AC2BAACA380018B234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909CF8B92BAACA3A0018B234 /* Preview Assets.xcassets in Resources */,
+				909CF8B62BAACA3A0018B234 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909CF8BC2BAACA3A0018B234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909CF8C62BAACA3A0018B234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909CF8AA2BAACA380018B234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909CF8B42BAACA380018B234 /* ContentView.swift in Sources */,
+				909CF8B22BAACA380018B234 /* kalkulator_wynagrodzeniaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909CF8BA2BAACA3A0018B234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909CF8C32BAACA3A0018B234 /* kalkulator_wynagrodzeniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909CF8C42BAACA3A0018B234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909CF8CD2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITests.swift in Sources */,
+				909CF8CF2BAACA3A0018B234 /* kalkulator_wynagrodzeniaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		909CF8C02BAACA3A0018B234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909CF8AD2BAACA380018B234 /* kalkulator_wynagrodzenia */;
+			targetProxy = 909CF8BF2BAACA3A0018B234 /* PBXContainerItemProxy */;
+		};
+		909CF8CA2BAACA3A0018B234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909CF8AD2BAACA380018B234 /* kalkulator_wynagrodzenia */;
+			targetProxy = 909CF8C92BAACA3A0018B234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		909CF8D02BAACA3A0018B234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		909CF8D12BAACA3A0018B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		909CF8D32BAACA3A0018B234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kalkulator_wynagrodzenia/Preview Content\"";
+				DEVELOPMENT_TEAM = D7NY7N44XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pemi.it.kalkulator-wynagrodzenia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		909CF8D42BAACA3A0018B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kalkulator_wynagrodzenia/Preview Content\"";
+				DEVELOPMENT_TEAM = D7NY7N44XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pemi.it.kalkulator-wynagrodzenia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		909CF8D62BAACA3A0018B234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7NY7N44XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pemi.it.kalkulator-wynagrodzeniaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalkulator_wynagrodzenia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kalkulator_wynagrodzenia";
+			};
+			name = Debug;
+		};
+		909CF8D72BAACA3A0018B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7NY7N44XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pemi.it.kalkulator-wynagrodzeniaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalkulator_wynagrodzenia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kalkulator_wynagrodzenia";
+			};
+			name = Release;
+		};
+		909CF8D92BAACA3A0018B234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7NY7N44XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pemi.it.kalkulator-wynagrodzeniaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kalkulator_wynagrodzenia;
+			};
+			name = Debug;
+		};
+		909CF8DA2BAACA3A0018B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7NY7N44XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pemi.it.kalkulator-wynagrodzeniaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kalkulator_wynagrodzenia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		909CF8A92BAACA380018B234 /* Build configuration list for PBXProject "kalkulator_wynagrodzenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909CF8D02BAACA3A0018B234 /* Debug */,
+				909CF8D12BAACA3A0018B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909CF8D22BAACA3A0018B234 /* Build configuration list for PBXNativeTarget "kalkulator_wynagrodzenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909CF8D32BAACA3A0018B234 /* Debug */,
+				909CF8D42BAACA3A0018B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909CF8D52BAACA3A0018B234 /* Build configuration list for PBXNativeTarget "kalkulator_wynagrodzeniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909CF8D62BAACA3A0018B234 /* Debug */,
+				909CF8D72BAACA3A0018B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909CF8D82BAACA3A0018B234 /* Build configuration list for PBXNativeTarget "kalkulator_wynagrodzeniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909CF8D92BAACA3A0018B234 /* Debug */,
+				909CF8DA2BAACA3A0018B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 909CF8A62BAACA380018B234 /* Project object */;
+}
